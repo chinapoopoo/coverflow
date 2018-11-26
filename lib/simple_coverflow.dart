@@ -49,7 +49,7 @@ class CoverFlow extends StatefulWidget {
   final OnCurrentItemChangedCallback currentItemChangedCallback;
 
   const CoverFlow({@required this.itemBuilder, this.dismissibleItems: true,
-    this.dismissedCallback, this.viewportFraction: .85, this.height: 525,
+    this.dismissedCallback, this.viewportFraction: .85, this.height: 450,
     this.width: 700, this.itemCount: null, this.startIndex: null, this.currentItemChangedCallback: null})
       : assert(itemBuilder != null);
 
